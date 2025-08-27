@@ -1,0 +1,34 @@
+{
+  "sunny_light_whirlwolf": {
+    "name": "Sunny Light",
+    "description": "A sunny light theme with warm tones and vibrant colors. Created for project version 2.3.20250825.",
+    "creator": {
+      "name": "WhirlWolf",
+      "contact": "https://t.me/android_automation_group"
+    },
+    "type": "light",
+    "tags": ["bright", "warm"],
+    "version": "1.1",
+    "preview_image": "https://t.me/android_automation_group",
+    "date_created": "2025-08-22",
+    "date_updated": "2025-08-27",
+    "min_project_version": "2.4.20250925",
+    "min_tasker_version": "6.4-stable",
+    "style": {
+      "font": "Serif",
+      "background_image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
+      "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
+      "colors": {
+        "body": "#FDF6E3",
+        "header": "#F59E0B",
+        "text": {
+          "primary": "#1F2937",
+          "secondary": "#6B7280",
+          "header": "#FFFDF7"
+        },
+        "icon_background": "#F59E0B",
+        "divider": "#E5E7EB"
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "simple_event_card_whirlwolf": {
+  "simple_event_card": {
     "name": "Simple Event Card",
     "description": "A simple calendar-like 2x2 card showing one event at a time.",
     "creator": {
@@ -12,121 +12,123 @@
     "preview_image": "https://t.me/android_automation_group",
     "tags": ["minimal", "simple"],
     "date_created": "2025-08-22",
-    "date_updated": "2025-08-27",
+    "date_updated": "2025-08-29",
     "min_project_version": "2.4.20250925",
     "min_tasker_version": "6.4-stable",
-    "dimensions": {
+    "properties": {
+      "corner_radius": "24",
       "text": {
-        "header": "22",
+        "event": "22",
+        "date": "16",
+        "track": "16",
         "days": "75",
         "label": "16"
-      },
-      "corner_radius": "24"
+      }
     },
     "structure": {
-        "children": [
-          {
-            "blur": "10",
-            "contentScale": "Crop",
-            "tint": "#60000000",
-            "url": "%image",
-            "isWeighted": true,
-            "size": "fill",
-            "type": "Image",
-            "useMaterialYouColors": true
-          },
-          {
-            "children": [
-              {
-                "children": [
-                  {
-                    "align": "Center",
-                    "bold": true,
-                    "color": "%text_color_header",
-                    "fontFamily": "%font",
-                    "maxLines": 2,
-                    "text": "%event",
-                    "textSize": "%text_size_header",
-                    "cornerRadius": "100",
-                    "isWeighted": false,
-                    "padding": {
-                      "top": 10,
-                      "bottom": 12,
-                      "start": 20,
-                      "end": 20
-                    },
-                    "type": "Text"
-                  }
-                ],
-                "horizontalAlignment": "Center",
-                "verticalAlignment": "Center",
-                "backgroundColor": "%header_color",
-                "command": "%command",
-                "commandPrefix": "DT",
-                "isWeighted": false,
-                "size": {
-                  "fillMaxWidth": true
-                },
-                "type": "Box"
+      "children": [
+        {
+          "blur": "10",
+          "contentScale": "Crop",
+          "tint": "#60000000",
+          "url": "%image",
+          "isWeighted": true,
+          "size": "fill",
+          "type": "Image",
+          "useMaterialYouColors": true
+        },
+        {
+          "children": [
+            {
+              "children": [
+                {
+                  "align": "Center",
+                  "bold": true,
+                  "color": "%text_color_header",
+                  "fontFamily": "%font",
+                  "maxLines": 2,
+                  "text": "%event",
+                  "textSize": "%text_size_header",
+                  "cornerRadius": "100",
+                  "isWeighted": false,
+                  "padding": {
+                    "top": 10,
+                    "bottom": 12,
+                    "start": 20,
+                    "end": 20
+                  },
+                  "type": "Text"
+                }
+              ],
+              "horizontalAlignment": "Center",
+              "verticalAlignment": "Center",
+              "backgroundColor": "%header_color",
+              "command": "%command",
+              "commandPrefix": "DT",
+              "isWeighted": false,
+              "size": {
+                "fillMaxWidth": true
               },
-              {
-                "children": [
-                  {
-                    "scrolling": false,
-                    "children": [
-                      {
-                        "align": "Center",
-                        "bold": true,
-                        "color": "%text_color_primary",
-                        "fontFamily": "%font",
-                        "text": "%days",
-                        "textSize": "%text_size_primary",
-                        "isWeighted": true,
-                        "type": "Text",
-                        "useMaterialYouColors": true
-                      },
-                      {
-                        "align": "Center",
-                        "color": "%text_color_secondary",
-                        "fontFamily": "%font",
-                        "text": "%label",
-                        "textSize": "%text_size_secondary",
-                        "isWeighted": false,
-                        "type": "Text",
-                        "useMaterialYouColors": true
-                      }
-                    ],
-                    "horizontalAlignment": "Center",
-                    "verticalAlignment": "Center",
-                    "backgroundColor": "#00000000",
-                    "isWeighted": false,
-                    "type": "Column"
-                  }
-                ],
-                "horizontalAlignment": "Center",
-                "verticalAlignment": "Center",
-                "backgroundColor": "%body_color",
-                "isWeighted": false,
-                "size": "fill",
-                "type": "Box",
-                "useMaterialYouColors": true
-              }
-            ],
-            "horizontalAlignment": "Center",
-            "backgroundColor": "#00000000",
-            "isWeighted": false,
-            "size": "fill",
-            "type": "Column",
-            "useMaterialYouColors": true
-          }
-        ],
-        "horizontalAlignment": "Center",
-        "verticalAlignment": "Top",
-        "backgroundColor": "#00000000",
-        "cornerRadius": "%corner_radius",
-        "isWeighted": true,
-        "type": "Box",
-        "useMaterialYouColors": true
-      }
+              "type": "Box"
+            },
+            {
+              "children": [
+                {
+                  "scrolling": false,
+                  "children": [
+                    {
+                      "align": "Center",
+                      "bold": true,
+                      "color": "%text_color_primary",
+                      "fontFamily": "%font",
+                      "text": "%days",
+                      "textSize": "%text_size_primary",
+                      "isWeighted": true,
+                      "type": "Text",
+                      "useMaterialYouColors": true
+                    },
+                    {
+                      "align": "Center",
+                      "color": "%text_color_secondary",
+                      "fontFamily": "%font",
+                      "text": "%label",
+                      "textSize": "%text_size_secondary",
+                      "isWeighted": false,
+                      "type": "Text",
+                      "useMaterialYouColors": true
+                    }
+                  ],
+                  "horizontalAlignment": "Center",
+                  "verticalAlignment": "Center",
+                  "backgroundColor": "#00000000",
+                  "isWeighted": false,
+                  "type": "Column"
+                }
+              ],
+              "horizontalAlignment": "Center",
+              "verticalAlignment": "Center",
+              "backgroundColor": "%body_color",
+              "isWeighted": false,
+              "size": "fill",
+              "type": "Box",
+              "useMaterialYouColors": true
+            }
+          ],
+          "horizontalAlignment": "Center",
+          "backgroundColor": "#00000000",
+          "isWeighted": false,
+          "size": "fill",
+          "type": "Column",
+          "useMaterialYouColors": true
+        }
+      ],
+      "horizontalAlignment": "Center",
+      "verticalAlignment": "Top",
+      "backgroundColor": "#00000000",
+      "cornerRadius": "%corner_radius",
+      "isWeighted": true,
+      "type": "Box",
+      "useMaterialYouColors": true
     }
+  }
 }

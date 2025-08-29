@@ -1,5 +1,5 @@
 {
-  "dt_focus_card_MrG0OD": {
+  "dt_focus_card": {
     "name": "DT Focus Card",
     "description": "A sleek 2x2 card for Days Tracker with a minimal look, focused on readability and days left.",
     "creator": {
@@ -15,14 +15,15 @@
     "date_updated": "2025-08-25",
     "min_project_version": "2.4.20250925",
     "min_tasker_version": "6.4-stable",
-    "dimensions": {
+    "properties": {
+      "corner_radius": 24,
       "text": {
-        "header": "20",
-        "date": "15",
-        "days": "50",
-        "label": "20"
-      },
-      "corner_radius": "24"
+        "event": 20,
+        "date": 15,
+        "track": 16,
+        "days": 50,
+        "label": 20
+      }
     },
     "structure": {
       "children": [
@@ -30,20 +31,20 @@
           "children": [
             {
               "bold": true,
-              "color": "%text_color_header",
+              "color": "%text_color_event",
               "fontFamily": "%font",
               "text": "%event",
-              "textSize": "%text_size_header",
+              "textSize": "%text_size_event",
               "command": "%command",
               "commandPrefix": "DT",
               "type": "Text"
             },
             {
               "bold": false,
-              "color": "%text_color_header",
+              "color": "%text_color_date",
               "fontFamily": "%font",
               "text": "%date",
-              "textSize": "%text_size_secondary",
+              "textSize": "%text_size_date",
               "type": "Text"
             },
             {
@@ -51,11 +52,11 @@
                 {
                   "align": "Left",
                   "bold": false,
-                  "color": "%text_color_header",
+                  "color": "%text_color_label",
                   "fontFamily": "%font",
                   "maxLines": 2,
                   "text": "%label",
-                  "textSize": "%text_size_secondary",
+                  "textSize": "%text_size_label",
                   "isWeighted": false,
                   "type": "Text"
                 }
@@ -81,16 +82,16 @@
                 {
                   "children": [
                     {
-                      "color": "%text_color_primary",
+                      "color": "%text_color_days",
                       "fontFamily": "%font",
                       "text": "%days",
-                      "textSize": "%text_size_primary",
+                      "textSize": "%text_size_days",
                       "type": "Text"
                     }
                   ],
                   "horizontalAlignment": "Center",
                   "verticalAlignment": "Center",
-                  "backgroundColor": "%header_color",
+                  "backgroundColor": "%accent_color",
                   "cornerRadius": 15,
                   "size": 100,
                   "type": "Box",

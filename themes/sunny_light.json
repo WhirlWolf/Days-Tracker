@@ -1,37 +1,35 @@
 {
-  "id": "sunny_light",
-  "name": "Sunny Light",
-  "description": "A sunny light theme with warm tones and vibrant colors. Created for project version 2.3.20250825.",
-  "creator": {
-    "name": "WhirlWolf",
-    "contact": "https://t.me/android_automation_group"
-  },
-  "type": "light",
-  "tags": ["bright", "warm"],
-  "version": "1.1",
-  "preview_image": "https://t.me/android_automation_group",
-  "date_created": "2025-08-22",
-  "date_updated": "2025-08-29",
-  "min_project_version": "2.4.20250925",
-  "min_tasker_version": "6.4-stable",
-  "style": {
-    "font": "Serif",
-    "background_image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
-    "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
-    "colors": {
-      "background": {
-        "body": "#FDF6E3",
-        "icon": "#F59E0B"
-      },
-      "accent": "#F59E0B",
-      "text": {
-        "event": "#1F2937",
-        "date": "#6B7280",
-        "track": "#374151",
-        "days": "#111827",
-        "label": "#FFFDF7"
-      },
-      "divider": "#E5E7EB"
+    "id": "sunny_light",
+    "name": "Sunny Light",
+    "description": "A sunny light theme with warm tones and vibrant colors. Created for project version 2.3.20250825.",
+    "creator": {
+        "name": "WhirlWolf",
+        "contact": "https://t.me/android_automation_group"
+    },
+    "type": "light",
+    "tags": [
+        "bright",
+        "warm"
+    ],
+    "version": "1.1",
+    "preview_image": "https://t.me/android_automation_group",
+    "date_created": "2025-08-22",
+    "date_updated": "2025-08-29",
+    "min_project_version": "2.4.20250925",
+    "min_tasker_version": "6.4-stable",
+    "style": {
+        "font": "Serif",
+        "background_image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
+        "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
+        "corner_radius": "24",
+        "body_color": "#FDF6E3",
+        "icon_background_color": "#F59E0B",
+        "accent_color": "#F59E0B",
+        "text_color_event": "#6B7280",
+        "text_color_date": "#6B7280",
+        "text_color_track": "#374151",
+        "text_color_days": "#111827",
+        "text_color_label": "#6B7280",
+        "divider_color": "#E5E7EB"
     }
-  }
 }

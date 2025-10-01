@@ -1,37 +1,34 @@
 {
-  "id": "material_you",
-  "name": "Material You",
-  "description": "A dynamic theme that adapts seamlessly to your system palette using Material You colors.",
-  "creator": {
-    "name": "WhirlWolf",
-    "contact": "https://t.me/android_automation_group"
-  },
-  "type": "material_you",
-  "tags": ["dynamic"],
-  "version": "1.1",
-  "preview_image": "https://t.me/android_automation_group",
-  "date_created": "2025-08-25",
-  "date_updated": "2025-08-29",
-  "min_project_version": "2.4.20250925",
-  "min_tasker_version": "6.4-stable",
-  "style": {
-    "font": "SansSerif",
-    "background_image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
-    "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
-    "colors": {
-      "background": {
-        "body": "surface",
-        "icon": "surfaceVariant"
-      },
-      "accent": "widgetBackground",
-      "text": {
-        "event": "onSurface",
-        "date": "onTertiaryContainer",
-        "track": "onSurfaceVariant",
-        "days": "onPrimaryContainer",
-        "label": "onSecondaryContainer"
-      },
-      "divider": "outline"
+    "id": "material_you",
+    "name": "Material You",
+    "description": "A dynamic theme that adapts seamlessly to your system palette using Material You colors.",
+    "creator": {
+        "name": "WhirlWolf",
+        "contact": "https://t.me/android_automation_group"
+    },
+    "type": "material_you",
+    "tags": [
+        "dynamic"
+    ],
+    "version": "1.1",
+    "preview_image": "https://t.me/android_automation_group",
+    "date_created": "2025-08-25",
+    "date_updated": "2025-08-29",
+    "min_project_version": "2.4.20250925",
+    "min_tasker_version": "6.4-stable",
+    "style": {
+        "font": "SansSerif",
+        "background_image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
+        "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
+        "corner_radius": "24",
+        "body_color": "surface",
+        "icon_background_color": "surfaceVariant",
+        "accent_color": "widgetBackground",
+        "text_color_event": "onSurface",
+        "text_color_date": "onTertiaryContainer",
+        "text_color_track": "onSurfaceVariant",
+        "text_color_days": "onPrimaryContainer",
+        "text_color_label": "onSecondaryContainer",
+        "divider_color": "outline"
     }
-  }
 }

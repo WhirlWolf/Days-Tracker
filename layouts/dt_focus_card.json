@@ -1,130 +1,131 @@
 {
-  "dt_focus_card": {
+    "id": "dt_focus_card",
     "name": "DT Focus Card",
     "description": "A sleek 2x2 card for Days Tracker with a minimal look, focused on readability and days left.",
     "creator": {
-      "name": "MrG0OD",
-      "contact": "https://t.me/android_automation_group"
+        "name": "MrG0OD",
+        "contact": "https://t.me/android_automation_group"
     },
     "type": "card",
     "size": "2x2",
+    "items_per_view": "Single",
     "version": "1.0",
     "preview_image": "https://i.postimg.cc/Y0FTd4jk/Screenshot-20250824-204750-2.png",
-    "tags": ["minimal", "focus"],
+    "tags": [
+        "minimal",
+        "focus",
+        "resizable"
+    ],
     "date_created": "2025-08-25",
     "date_updated": "2025-08-25",
     "min_project_version": "2.4.20250925",
     "min_tasker_version": "6.4-stable",
-    "properties": {
-      "corner_radius": 24,
-      "text": {
-        "event": 20,
-        "date": 15,
-        "track": 16,
-        "days": 50,
-        "label": 20
-      }
+    "defaults": {
+        "text_size_event": "20",
+        "text_size_date": "15",
+        "text_size_track": "16",
+        "text_size_days": "50",
+        "text_size_label": "20"
     },
     "structure": {
-      "children": [
-        {
-          "children": [
+        "children": [
             {
-              "bold": true,
-              "color": "%text_color_event",
-              "fontFamily": "%font",
-              "text": "%event",
-              "textSize": "%text_size_event",
-              "command": "%command",
-              "commandPrefix": "DT",
-              "type": "Text"
-            },
-            {
-              "bold": false,
-              "color": "%text_color_date",
-              "fontFamily": "%font",
-              "text": "%date",
-              "textSize": "%text_size_date",
-              "type": "Text"
-            },
-            {
-              "children": [
-                {
-                  "align": "Left",
-                  "bold": false,
-                  "color": "%text_color_label",
-                  "fontFamily": "%font",
-                  "maxLines": 2,
-                  "text": "%label",
-                  "textSize": "%text_size_label",
-                  "isWeighted": false,
-                  "type": "Text"
-                }
-              ],
-              "horizontalAlignment": "Center",
-              "verticalAlignment": "Bottom",
-              "backgroundColor": "#00000000",
-              "size": {
-                "fillMaxHeight": true
-              },
-              "type": "Box"
-            }
-          ],
-          "horizontalAlignment": "Start",
-          "verticalAlignment": "Center",
-          "backgroundColor": "#00000000",
-          "type": "Column"
-        },
-        {
-          "children": [
-            {
-              "children": [
-                {
-                  "children": [
+                "children": [
                     {
-                      "color": "%text_color_days",
-                      "fontFamily": "%font",
-                      "text": "%days",
-                      "textSize": "%text_size_days",
-                      "type": "Text"
+                        "bold": true,
+                        "color": "%text_color_event",
+                        "fontFamily": "%font",
+                        "text": "%event_name",
+                        "textSize": "%text_size_event",
+                        "command": "%command",
+                        "commandPrefix": "DT",
+                        "type": "Text"
+                    },
+                    {
+                        "bold": false,
+                        "color": "%text_color_date",
+                        "fontFamily": "%font",
+                        "text": "%event_date",
+                        "textSize": "%text_size_date",
+                        "type": "Text"
+                    },
+                    {
+                        "children": [
+                            {
+                                "align": "Left",
+                                "bold": false,
+                                "color": "%text_color_label",
+                                "fontFamily": "%font",
+                                "maxLines": 2,
+                                "text": "%event_label",
+                                "textSize": "%text_size_label",
+                                "isWeighted": false,
+                                "type": "Text"
+                            }
+                        ],
+                        "horizontalAlignment": "Center",
+                        "verticalAlignment": "Bottom",
+                        "backgroundColor": "#00000000",
+                        "size": {
+                            "fillMaxHeight": true
+                        },
+                        "type": "Box"
                     }
-                  ],
-                  "horizontalAlignment": "Center",
-                  "verticalAlignment": "Center",
-                  "backgroundColor": "%accent_color",
-                  "cornerRadius": 15,
-                  "size": 100,
-                  "type": "Box",
-                  "visibility": "Visible"
-                }
-              ],
-              "horizontalAlignment": "Center",
-              "verticalAlignment": "Bottom",
-              "backgroundColor": "#00000000",
-              "cornerRadius": 19,
-              "size": {
-                "fillMaxHeight": true
-              },
-              "type": "Column"
+                ],
+                "horizontalAlignment": "Start",
+                "verticalAlignment": "Center",
+                "backgroundColor": "#00000000",
+                "type": "Column"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "color": "%text_color_days",
+                                        "fontFamily": "%font",
+                                        "text": "%event_days",
+                                        "textSize": "%text_size_days",
+                                        "type": "Text"
+                                    }
+                                ],
+                                "horizontalAlignment": "Center",
+                                "verticalAlignment": "Center",
+                                "backgroundColor": "%accent_color",
+                                "cornerRadius": 15,
+                                "size": 100,
+                                "type": "Box",
+                                "visibility": "Visible"
+                            }
+                        ],
+                        "horizontalAlignment": "Center",
+                        "verticalAlignment": "Bottom",
+                        "backgroundColor": "#00000000",
+                        "cornerRadius": 19,
+                        "size": {
+                            "fillMaxHeight": true
+                        },
+                        "type": "Column"
+                    }
+                ],
+                "horizontalAlignment": "End",
+                "verticalAlignment": "Center",
+                "backgroundColor": "#00FFFFFF",
+                "size": {
+                    "fillMaxWidth": true
+                },
+                "type": "Row"
             }
-          ],
-          "horizontalAlignment": "End",
-          "verticalAlignment": "Center",
-          "backgroundColor": "#00FFFFFF",
-          "size": {
-            "fillMaxWidth": true
-          },
-          "type": "Row"
-        }
-      ],
-      "horizontalAlignment": "Start",
-      "verticalAlignment": "Center",
-      "backgroundColor": "%body_color",
-      "cornerRadius": "%corner_radius",
-      "padding": 20,
-      "size": "fill",
-      "type": "Box",
-      "useMaterialYouColors": true
+        ],
+        "horizontalAlignment": "Start",
+        "verticalAlignment": "Center",
+        "backgroundColor": "%body_color",
+        "cornerRadius": "%corner_radius",
+        "padding": 20,
+        "size": "fill",
+        "type": "Box",
+        "useMaterialYouColors": true
     }
-  }
 }

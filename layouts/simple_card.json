@@ -6,7 +6,7 @@
         "name": "WhirlWolf",
         "contact": "https://t.me/android_automation_group"
     },
-    "type": "card",
+    "type": "Card",
     "size": "2x2",
     "items_per_view": "Single",
     "version": "1.1",

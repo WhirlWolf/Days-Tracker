@@ -62,3 +62,8 @@ Make sure Tasker has background permission and is excluded from battery optimiza
 
 ## 🤝 Contributing
 Found a bug or want a new widget/theme? Open an issue or submit a pull request!
+
+
+<a href="https://ko-fi.com/whirlwolf" target="_blank">
+  <img src="https://cdn.ko-fi.com/cdn/kofi2.png?v=3" alt="Buy Me a Coffee" width="150"/>
+</a>

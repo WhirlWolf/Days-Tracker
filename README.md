@@ -1,6 +1,6 @@
 <div align="center">
 <p align="center">
-  <img src="assets/banner.svg" alt="Days Tracker" width="50%"/>
+  <img src="assets/banner.svg" alt="Days Tracker" width="40%"/>
 </p>
 
 # Days Tracker

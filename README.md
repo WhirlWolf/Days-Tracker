@@ -6,7 +6,7 @@
 # Days Tracker
 A tasker project to track important days, events, or milestones with stylish widgets and timely reminders!
 
-Released: tbu
+Released: August 15, 2022
 
 [![Import](https://img.shields.io/badge/Import-Taskernet-orange)](https://taskernet.com/shares/?user=AS35m8m8L9YzBV3qbzaAAqHiSYXYBbD3QfZ7hr0hRK4ojOFTCrjWh2CScbjMw4NaudRi1zKKzq85&id=Project%3ADays+Tracker)  [![Tasker](https://img.shields.io/badge/Requires-Tasker-blue)](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)  
 </div>
@@ -52,12 +52,12 @@ Released: tbu
 
 
 ## 📝 Credits
-* [Mr_G0OD](https://t.me/android_automation_group): Layouts & Testing
+* [Mr_G0OD](https://t.me/android_automation_group): Layouts & testing
 
 
 ## ❓ FAQ
 * **Why isn’t my widget updating?**
-Make sure Tasker has background permission and is excluded from battery optimizations.
+Make sure tasker has permission to run in the background and is excluded from battery optimizations.
 
 
 ## 🤝 Contributing

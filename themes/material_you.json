@@ -1,12 +1,12 @@
 {
     "id": "material_you",
     "name": "Material You",
-    "description": "A dynamic theme that adapts seamlessly to your system palette using Material You colors.",
+    "description": "A dynamic theme that adapts to your system palette using material you colors.",
     "creator": {
         "name": "WhirlWolf",
         "contact": "https://t.me/android_automation_group"
     },
-    "type": "material_you",
+    "type": "Material You",
     "features": [
         "dynamic"
     ],

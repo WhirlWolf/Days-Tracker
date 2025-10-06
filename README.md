@@ -63,6 +63,7 @@ Make sure tasker has permission to run in the background and is excluded from ba
 ## 🤝 Contributing
 Found a bug or want a new widget/theme? Open an issue or submit a pull request!
 
+---
 
 <a href="https://ko-fi.com/whirlwolf" target="_blank">
   <img src="https://cdn.ko-fi.com/cdn/kofi2.png?v=3" alt="Buy Me a Coffee" width="150"/>

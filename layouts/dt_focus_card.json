@@ -21,11 +21,11 @@
     "min_project_version": "2.4.20250925",
     "min_tasker_version": "6.4-stable",
     "defaults": {
-        "text_size_event": "20",
-        "text_size_date": "15",
-        "text_size_track": "16",
-        "text_size_days": "50",
-        "text_size_label": "20"
+        "text_size_event_title": "20",
+        "text_size_event_date": "15",
+        "text_size_event_track": "16",
+        "text_size_event_days": "50",
+        "text_size_event_label": "20"
     },
     "structure": {
         "children": [
@@ -36,7 +36,7 @@
                         "color": "%text_color_event",
                         "fontFamily": "%font",
                         "text": "%event_name",
-                        "textSize": "%text_size_event",
+                        "textSize": "%text_size_event_title",
                         "command": "%command",
                         "commandPrefix": "DT",
                         "type": "Text"
@@ -46,7 +46,7 @@
                         "color": "%text_color_date",
                         "fontFamily": "%font",
                         "text": "%event_date",
-                        "textSize": "%text_size_date",
+                        "textSize": "%text_size_event_date",
                         "type": "Text"
                     },
                     {
@@ -58,7 +58,7 @@
                                 "fontFamily": "%font",
                                 "maxLines": 2,
                                 "text": "%event_label",
-                                "textSize": "%text_size_label",
+                                "textSize": "%text_size_event_label",
                                 "isWeighted": false,
                                 "type": "Text"
                             }
@@ -87,7 +87,7 @@
                                         "color": "%text_color_days",
                                         "fontFamily": "%font",
                                         "text": "%event_days",
-                                        "textSize": "%text_size_days",
+                                        "textSize": "%text_size_event_days",
                                         "type": "Text"
                                     }
                                 ],

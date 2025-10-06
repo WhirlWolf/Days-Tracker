@@ -26,11 +26,11 @@
         "body_color": "#FDF6E3",
         "icon_background_color": "#F59E0B",
         "accent_color": "#F59E0B",
-        "text_color_event": "#FFFFFF",
-        "text_color_date": "#6B7280",
-        "text_color_track": "#374151",
-        "text_color_days": "#111827",
-        "text_color_label": "#6B7280",
+        "text_color_event_title": "#FFFFFF",
+        "text_color_event_date": "#6B7280",
+        "text_color_event_track": "#374151",
+        "text_color_event_days": "#111827",
+        "text_color_event_label": "#6B7280",
         "divider_color": "#E5E7EB"
     }
 }

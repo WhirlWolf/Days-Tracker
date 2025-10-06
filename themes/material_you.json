@@ -24,11 +24,11 @@
         "body_color": "surface",
         "icon_background_color": "surfaceVariant",
         "accent_color": "widgetBackground",
-        "text_color_event": "onSurface",
-        "text_color_date": "onTertiaryContainer",
-        "text_color_track": "onSurfaceVariant",
-        "text_color_days": "onPrimaryContainer",
-        "text_color_label": "onSecondaryContainer",
+        "text_color_event_title": "onSurface",
+        "text_color_event_date": "onTertiaryContainer",
+        "text_color_event_track": "onSurfaceVariant",
+        "text_color_event_days": "onPrimaryContainer",
+        "text_color_event_label": "onSecondaryContainer",
         "divider_color": "outline"
     }
 }

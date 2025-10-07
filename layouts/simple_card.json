@@ -21,8 +21,6 @@
     "min_tasker_version": "6.4-stable",
     "defaults": {
         "text_size_event_title": "22",
-        "text_size_event_date": "16",
-        "text_size_event_track": "16",
         "text_size_event_days": "75",
         "text_size_event_label": "16"
     },

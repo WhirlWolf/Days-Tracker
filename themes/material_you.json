@@ -17,18 +17,21 @@
     "min_project_version": "2.4.20250925",
     "min_tasker_version": "6.4-stable",
     "style": {
-        "font": "SansSerif",
-        "background_image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
+        "font_primary": "SansSerif",
+        "font_secondary": "SansSerif",
+        "image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
         "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
-        "corner_radius": "24",
-        "body_color": "surface",
         "icon_background_color": "surfaceVariant",
-        "accent_color": "widgetBackground",
+        "corner_radius": "24",
+        "color_background": "surface",
+        "color_accent": "widgetBackground",
+        "color_divider": "outline",
+        "color_outline": "outlineVariant",
+        "color_highlight": "primaryContainer",
         "text_color_event_title": "onSurface",
         "text_color_event_date": "onTertiaryContainer",
-        "text_color_event_track": "onSurfaceVariant",
+        "text_color_event_alert": "onSurfaceVariant",
         "text_color_event_days": "onPrimaryContainer",
-        "text_color_event_label": "onSecondaryContainer",
-        "divider_color": "outline"
+        "text_color_event_label": "onSecondaryContainer"
     }
 }

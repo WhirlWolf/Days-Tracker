@@ -52,7 +52,7 @@
                                 "isWeighted": false,
                                 "padding": {
                                     "top": 10,
-                                    "bottom": 12,
+                                    "bottom": 10,
                                     "start": 20,
                                     "end": 20
                                 },

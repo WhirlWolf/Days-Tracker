@@ -52,7 +52,7 @@ Released: August 15, 2022
 
 
 ## 📝 Credits
-* [Mr_G0OD](https://t.me/android_automation_group): Layouts & testing
+* [Mr_G0OD](https://t.me/android_automation_group): Testing
 
 
 ## ❓ FAQ
@@ -61,7 +61,8 @@ Make sure tasker has permission to run in the background and is excluded from ba
 
 
 ## 🤝 Contributing
-Found a bug or want a new widget/theme? Open an issue or submit a pull request!
+Found a bug or want a new widget/theme?
+Open an issue or submit a pull request!
 
 ---
 

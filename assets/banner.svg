@@ -9,7 +9,7 @@
     </filter>
   </defs>
   <circle cx="100" cy="100" r="100" fill="url(#bgGrad)" />
-  <text x="50%" y="50%" font-size="90" font-family="Segoe UI Emoji, Arial, sans-serif" text-anchor="middle" dominant-baseline="middle" filter="url(#textShadow)">
+  <text x="50%" y="52%" font-size="90" font-family="Segoe UI Emoji, Arial, sans-serif" text-anchor="middle" dominant-baseline="middle" filter="url(#textShadow)">
     📆
   </text>
 </svg>

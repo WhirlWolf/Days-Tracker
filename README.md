@@ -14,11 +14,11 @@ Released: August 15, 2022
 ---
 
 ## 📲 Get Started
-1. **Install Tasker** from the Google Play Store.  
+1. Install tasker from the Google Play Store.  
 2. Click the **Import Taskernet** badge above.  
-3. Follow the setup instructions to add your first event/day.  
+3. Follow the setup instructions.  
 
-> 💡 **Tip:** Exclude Tasker from battery optimizations to ensure reminders and widgets stay up to date.
+> 💡 **Tip:** Exclude tasker from battery optimizations to ensure reminders and widgets stay up to date.
 
 
 ## ✨ Features

@@ -11,8 +11,9 @@ Released: August 15, 2022
 [![Import](https://img.shields.io/badge/Import-Taskernet-orange)](https://taskernet.com/shares/?user=AS35m8m8L9YzBV3qbzaAAqHiSYXYBbD3QfZ7hr0hRK4ojOFTCrjWh2CScbjMw4NaudRi1zKKzq85&id=Project%3ADays+Tracker)  [![Tasker](https://img.shields.io/badge/Requires-Tasker-blue)](https://play.google.com/store/apps/details?id=net.dinglisch.android.taskerm)  
 </div>
 
+---
 
-## 🚀 Get Started
+## 📲 Get Started
 1. **Install Tasker** from the Google Play Store.  
 2. Click the **Import Taskernet** badge above.  
 3. Follow the setup instructions to add your first event/day.  
@@ -61,8 +62,8 @@ Make sure tasker has permission to run in the background and is excluded from ba
 
 
 ## 🤝 Contributing
-Found a bug or want a new widget/theme?
-Open an issue or submit a pull request!
+Found a bug? Have a feature request?
+[Open an issue](https://github.com/WhirlWolf/Days-Tracker/issues)
 
 ---
 

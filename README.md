@@ -18,7 +18,7 @@ Released: August 15, 2022
 2. Click the **Import Taskernet** badge above.  
 3. Follow the setup instructions.  
 
-> 💡 **Tip:** Exclude tasker from battery optimizations to ensure reminders and widgets stay up to date.
+> 💡 **Tip:** Exclude tasker from battery optimizations.
 
 
 ## ✨ Features

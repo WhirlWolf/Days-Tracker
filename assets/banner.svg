@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 200 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120">
   <defs>
     <filter id="textShadow" x="-50%" y="-50%" width="200%" height="200%">
       <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="black" flood-opacity="0.5"/>
     </filter>
   </defs>
-  <text x="50%" y="55%" font-size="150" font-family="Segoe UI Emoji, Arial, sans-serif" text-anchor="middle" dominant-baseline="middle" filter="url(#textShadow)">
+  <text x="50%" y="55%" font-size="100" font-family="Segoe UI Emoji, Arial, sans-serif" text-anchor="middle" dominant-baseline="middle" filter="url(#textShadow)">
     📆
   </text>
 </svg>

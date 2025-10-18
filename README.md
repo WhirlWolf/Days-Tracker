@@ -13,6 +13,7 @@ Released: August 15, 2022
 
 ---
 
+
 ## 📲 Get Started
 1. Install tasker from the Google Play Store.  
 2. Click the **Import Taskernet** badge above.  
@@ -26,7 +27,6 @@ Released: August 15, 2022
 * **Widgets** – Multiple layouts and themes for a personalized homescreen.
 * **Countdown & Progress** – See days left or days passed at a glance.
 * **Reminders & Alerts** – Get timely notifications for upcoming events.
-* **Lightweight & Offline** – Fully functional without internet access.
 
 
 ## 📸 Screenshots

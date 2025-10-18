@@ -22,7 +22,7 @@
         "image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
         "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
         "corner_radius": "24",
-        "color_accent": "widgetBackground",
+        "color_accent": "tertiaryContainer",
         "color_divider": "outline",
         "color_outline": "outlineVariant",
         "color_highlight": "primaryContainer",

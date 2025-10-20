@@ -90,7 +90,7 @@
                                         "align": "Center",
                                         "color": "%text_color_event_label",
                                         "fontFamily": "%font_primary",
-                                        "text": "%event_label",
+                                        "text": "%event_label!",
                                         "textSize": "%text_size_event_label",
                                         "isWeighted": false,
                                         "type": "Text",

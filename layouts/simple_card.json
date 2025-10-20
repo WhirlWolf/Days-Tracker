@@ -8,7 +8,7 @@
     },
     "type": "Card",
     "size": "2x2",
-    "version": "1.1",
+    "version": "1.2",
     "preview": "https://raw.githubusercontent.com/WhirlWolf/Days-Tracker/refs/heads/main/images/material_you-simple_card.jpg",
     "features": [
         "minimal",
@@ -16,8 +16,8 @@
         "resizable"
     ],
     "date_created": "2025-08-22",
-    "date_updated": "2025-08-29",
-    "min_project_version": "2.4.20250925",
+    "date_updated": "2025-10-20",
+    "min_project_version": "2.4.20251025",
     "min_tasker_version": "6.4-stable",
     "defaults": {
         "text_size_event_title": "22",
@@ -106,7 +106,7 @@
                         ],
                         "horizontalAlignment": "Center",
                         "verticalAlignment": "Center",
-                        "backgroundColor": "%color_background",
+                        "backgroundColor": "%background_color",
                         "isWeighted": false,
                         "size": "fill",
                         "type": "Box",

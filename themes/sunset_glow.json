@@ -1,0 +1,43 @@
+{
+    "id": "sunset_glow",
+    "name": "Sunset Glow",
+    "description": "Warm orange-pink tones like the evening sky.",
+    "creator": {
+        "name": "WhirlWolf",
+        "contact": "https://t.me/android_automation_group"
+    },
+    "type": "Light",
+    "features": [
+        "warm tones",
+        "sunset palette"
+    ],
+    "version": "1.0",
+    "preview": "https://i.postimg.cc/PrkSncbn/sunset-glow.png",
+    "date_created": "2025-10-20",
+    "date_updated": "2025-10-20",
+    "min_project_version": "2.4.20251025",
+    "min_tasker_version": "6.4-stable",
+    "style": {
+        "font_primary": "Cursive",
+        "font_secondary": "Cursive",
+        "image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
+        "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
+        "corner_radius": "30",
+        "color_accent": "#FF7849",
+        "color_divider": "#FFD5C2",
+        "color_outline": "#A0522D",
+        "color_highlight": "#FFB899",
+        "background_color": "#FFF1E6",
+        "background_color_icon": "#FFE0CC",
+        "background_color_event_title": "#00000000",
+        "background_color_event_date": "#00000000",
+        "background_color_event_alert": "#00000000",
+        "background_color_event_days": "#00000000",
+        "background_color_event_label": "#00000000",
+        "text_color_event_title": "#2C1810",
+        "text_color_event_date": "#A0522D",
+        "text_color_event_alert": "#2C1810",
+        "text_color_event_days": "#FF7849",
+        "text_color_event_label": "#A0522D"
+    }
+}

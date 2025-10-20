@@ -1,0 +1,43 @@
+{
+    "id": "midnight_blue",
+    "name": "Midnight Blue",
+    "description": "Dark midnight theme with glowing accents.",
+    "creator": {
+        "name": "WhirlWolf",
+        "contact": "https://t.me/android_automation_group"
+    },
+    "type": "Dark",
+    "features": [
+        "glow",
+        "midnight tones"
+    ],
+    "version": "1.1",
+    "preview": "https://i.postimg.cc/zGHV7cWh/midnight-blue.png",
+    "date_created": "2025-10-20",
+    "date_updated": "2025-10-20",
+    "min_project_version": "2.4.20251025",
+    "min_tasker_version": "6.4-stable",
+    "style": {
+        "font_primary": "SansSerif",
+        "font_secondary": "SansSerif",
+        "image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
+        "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
+        "corner_radius": "18",
+        "color_accent": "#415A77",
+        "color_divider": "#1B263B",
+        "color_outline": "#778DA9",
+        "color_highlight": "#E0E1DD",
+        "background_color": "#0D1B2A",
+        "background_color_icon": "#1B263B",
+        "background_color_event_title": "#00000000",
+        "background_color_event_date": "#00000000",
+        "background_color_event_alert": "#00000000",
+        "background_color_event_days": "#00000000",
+        "background_color_event_label": "#00000000",
+        "text_color_event_title": "#F9FAFB",
+        "text_color_event_date": "#E0E1DD",
+        "text_color_event_alert": "#778DA9",
+        "text_color_event_days": "#E0E1DD",
+        "text_color_event_label": "#778DA9"
+    }
+}

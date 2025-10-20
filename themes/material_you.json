@@ -10,11 +10,11 @@
     "features": [
         "dynamic"
     ],
-    "version": "1.1",
+    "version": "1.2",
     "preview": "https://raw.githubusercontent.com/WhirlWolf/Days-Tracker/refs/heads/main/images/material_you-simple_card.jpg",
     "date_created": "2025-08-25",
-    "date_updated": "2025-08-29",
-    "min_project_version": "2.4.20250925",
+    "date_updated": "2025-10-20",
+    "min_project_version": "2.4.20251025",
     "min_tasker_version": "6.4-stable",
     "style": {
         "font_primary": "SansSerif",

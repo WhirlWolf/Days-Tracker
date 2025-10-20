@@ -1,0 +1,44 @@
+{
+    "id": "sunny_light",
+    "name": "Sunny Light",
+    "description": "A theme with warm tones and vibrant colors. Created for v2.3.20250825.",
+    "creator": {
+        "name": "WhirlWolf",
+        "contact": "https://t.me/android_automation_group"
+    },
+    "type": "Light",
+    "features": [
+        "bright",
+        "warm",
+        "vibrant"
+    ],
+    "version": "1.2",
+    "preview": "https://raw.githubusercontent.com/WhirlWolf/Days-Tracker/refs/heads/main/images/sunny_light-simple_card.jpg",
+    "date_created": "2025-08-22",
+    "date_updated": "2025-10-20",
+    "min_project_version": "2.4.20251025",
+    "min_tasker_version": "6.4-stable",
+    "style": {
+        "font_primary": "Serif",
+        "font_secondary": "Serif",
+        "image": "android.resource://net.dinglisch.android.taskerm/drawable/mw_action_event",
+        "icon": "android.resource://net.dinglisch.android.taskerm/drawable/mw_icon",
+        "corner_radius": "24",
+        "color_accent": "#F59E0B",
+        "color_divider": "#E5E7EB",
+        "color_outline": "#D1D5DB",
+        "color_highlight": "#FDE68A",
+        "background_color": "#FDF6E3",
+        "background_color_icon": "#F59E0B",
+        "background_color_event_title": "#00000000",
+        "background_color_event_date": "#00000000",
+        "background_color_event_alert": "#00000000",
+        "background_color_event_days": "#00000000",
+        "background_color_event_label": "#00000000",
+        "text_color_event_title": "#FFFFFF",
+        "text_color_event_date": "#6B7280",
+        "text_color_event_alert": "#374151",
+        "text_color_event_days": "#111827",
+        "text_color_event_label": "#6B7280"
+    }
+}

@@ -1,0 +1,68 @@
+{
+    "id": "minimal_strip",
+    "name": "Minimal Strip",
+    "description": "Flat strip showing event, date and days left.",
+    "creator": {
+        "name": "WhirlWolf",
+        "contact": "https://t.me/android_automation_group"
+    },
+    "type": "Strip",
+    "size": "1x2",
+    "version": "1.0",
+    "preview": "https://raw.githubusercontent.com/WhirlWolf/Days-Tracker/refs/heads/main/images/material_you-minimal_strip.jpg",
+    "features": [
+        "minimal",
+        "simple",
+        "resizable"
+    ],
+    "date_created": "2025-08-22",
+    "date_updated": "2025-10-21",
+    "min_project_version": "2.4.20251025",
+    "min_tasker_version": "6.4-stable",
+    "defaults": {
+        "text_size_event_title": "20",
+        "text_size_event_date": "14",
+        "text_size_event_days": "28"
+    },
+    "structure": {
+        "children": [
+            {
+                "children": [
+                    {
+                        "bold": true,
+                        "color": "%text_color_event_title",
+                        "fontFamily": "%font_primary",
+                        "text": "%event_title",
+                        "textSize": "20",
+                        "type": "Text"
+                    },
+                    {
+                        "color": "%text_color_event_date",
+                        "fontFamily": "%font_primary",
+                        "text": "%event_date",
+                        "textSize": "14",
+                        "type": "Text"
+                    }
+                ],
+                "horizontalAlignment": "Start",
+                "verticalAlignment": "Center",
+                "type": "Column"
+            },
+            {
+                "align": "End",
+                "bold": true,
+                "color": "%text_color_event_days",
+                "fontFamily": "%font_primary",
+                "text": "%event_days",
+                "textSize": "28",
+                "type": "Text"
+            }
+        ],
+        "horizontalAlignment": "SpaceBetween",
+        "verticalAlignment": "Center",
+        "backgroundColor": "%background_color",
+        "cornerRadius": "%corner_radius",
+        "padding": 15,
+        "type": "Row"
+    }
+}

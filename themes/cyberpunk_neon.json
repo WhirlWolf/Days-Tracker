@@ -30,15 +30,15 @@
         "color_highlight": "#FACC15",
         "background_color": "#000000",
         "background_color_icon": "#181818",
-        "background_color_event_title": "#111111",
-        "background_color_event_date": "#111111",
-        "background_color_event_alert": "#111111",
+        "background_color_event_title": "#0A0A0A",
+        "background_color_event_date": "#0E0E0E",
+        "background_color_event_alert": "#15001B",
         "background_color_event_days": "#000000",
-        "background_color_event_label": "#000000",
-        "text_color_event_title": "#22D3EE",
-        "text_color_event_date": "#FACC15",
-        "text_color_event_alert": "#D946EF",
+        "background_color_event_label": "#050505",
+        "text_color_event_title": "#FFFFFF",
+        "text_color_event_date": "#D946EF",
+        "text_color_event_alert": "#FF6F00",
         "text_color_event_days": "#22D3EE",
-        "text_color_event_label": "#F9FAFB"
+        "text_color_event_label": "#FACC15"
     }
 }

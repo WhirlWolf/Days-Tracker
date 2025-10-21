@@ -1,0 +1,42 @@
+{
+    "id": "theme_id_here",
+    "name": "Theme Name",
+    "description": "Short description of the theme's appearance or mood.",
+    "creator": {
+        "name": "Your display name or alias.",
+        "contact": "Link or username where you can be reached (Telegram, GitHub, etc.)"
+    },
+    "type": "Theme style category (e.g., Material You, Light, Dark, OLED, Neon,etc).",
+    "features": [
+        "Key characteristics or", "highlights of the theme", "(e.g., dynamic, gradient, high contrast, minimal, soft, pastel, etc)"
+    ],
+    "version": "Theme version number (e.g., 1.0, 1.1).",
+    "preview": "Direct URL to preview image or video.",
+    "date_created": "Date the theme was first made (YYYY-MM-DD).",
+    "date_updated": "Date the theme was last updated (YYYY-MM-DD).",
+    "min_project_version": "Minimum compatible project version (e.g., 2.4.20250925).",
+    "min_tasker_version": "Minimum compatible Tasker version (e.g., 6.4-stable).",
+    "style": {
+        "font_primary": "Primary text font available in tasker (e.g., SansSerif, Monospace, Serif).",
+        "font_secondary": "Secondary text font available in tasker",
+        "image": "Drawable resource or URL for background or decoration.",
+        "icon": "Drawable resource for main icon or logo.",
+        "corner_radius": "Corner roundness in dp (e.g., 16, 24, 32).",
+        "color_accent": "Main accent color (Material token or hex code).",
+        "color_divider": "Divider color (Material token or hex code).",
+        "color_outline": "Outline or border color (Material token or hex code).",
+        "color_highlight": "Highlight or focus color (Material token or hex code).",
+        "background_color": "Main background color (Material token or hex code).",
+        "background_color_icon": "Background color for icon (Material token or hex code).",
+        "background_color_event_title": "Background color for event title.",
+        "background_color_event_date": "Background color for event date.",
+        "background_color_event_alert": "Background color for event alert.",
+        "background_color_event_days": "Background color for event days.",
+        "background_color_event_label": "Background color for event label.",
+        "text_color_event_title": "Text color for event title (Material token or hex code).",
+        "text_color_event_date": "Text color for event date (Material token or hex code).",
+        "text_color_event_alert": "Text color for event alert (Material token or hex code).",
+        "text_color_event_days": "Text color for event days (Material token or hex code).",
+        "text_color_event_label": "Text color for event label (Material token or hex code)."
+    }
+}

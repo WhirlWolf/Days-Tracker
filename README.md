@@ -52,7 +52,7 @@ Released: August 15, 2022
 </table>
 
 
-## 📝 Credits
+## 📝 Acknowledgements
 * [Mr_G0OD](https://t.me/android_automation_group): Testing
 
 

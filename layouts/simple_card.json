@@ -80,7 +80,7 @@
                                         "bold": true,
                                         "color": "%text_color_event_days",
                                         "fontFamily": "%font_primary",
-                                        "text": "%event_days",
+                                        "text": "%event_days!",
                                         "textSize": "%text_size_event_days",
                                         "isWeighted": true,
                                         "type": "Text",

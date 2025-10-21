@@ -1,0 +1,31 @@
+{
+    "id": "your_layout_id_here",
+    "name": "Your Layout Name",
+    "description": "Briefly describe what this layout looks like or how it behaves.",
+    "creator": {
+        "name": "Your Name or Alias",
+        "contact": "Contact link (e.g., Telegram, GitHub, Email)"
+    },
+    "type": "Card | Strip | Pill | Grid | List | Custom",
+    "size": "1x1 | 2x1 | 2x2 | 4x1 | RowxColumn | etc.",
+    "version": "1.0",
+    "preview": "https://your_image_link_here.jpg",
+    "features": [
+        "minimal",
+        "modern",
+        "resizable",
+        "etc"
+    ],
+    "date_created": "YYYY-MM-DD",
+    "date_updated": "YYYY-MM-DD",
+    "min_project_version": "2.4.20251025",
+    "min_tasker_version": "6.4-stable",
+    "defaults": {
+        "text_size_event_title": "<title_text_size>",
+        "text_size_event_date": "<date_text_size>",
+        "text_size_event_days": "<days_text_size>",
+        "text_size_event_alert": "<alert_text_size>",
+        "text_size_event_label": "<label_text_size>"
+    },
+    "structure": your_custom_layout_structure_here_not_a_string
+}

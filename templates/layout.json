@@ -1,18 +1,17 @@
 {
-    "id": "your_layout_id_here",
+    "id": "your_layout_id",
     "name": "Your Layout Name",
     "description": "Briefly describe what this layout looks like or how it behaves.",
     "creator": {
         "name": "Your Name or Alias",
         "contact": "Contact link (e.g., Telegram, GitHub, Email)"
     },
-    "type": "Card | Strip | Pill | Grid | List | Custom",
+    "type": "Card | Tile | Strip | Pill | Grid | List | Custom",
     "size": "1x1 | 2x1 | 2x2 | 4x1 | RowxColumn | etc.",
     "version": "1.0",
-    "preview": "https://your_image_link_here.jpg",
+    "preview": "Direct URL to preview image or video",
     "features": [
         "minimal",
-        "modern",
         "resizable",
         "etc"
     ],
@@ -27,5 +26,5 @@
         "text_size_event_alert": "<alert_text_size>",
         "text_size_event_label": "<label_text_size>"
     },
-    "structure": your_custom_layout_structure_here_not_a_string
+    "structure": your_custom_layout_structure_here_and_not_a_string
 }

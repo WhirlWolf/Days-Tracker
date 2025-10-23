@@ -1,5 +1,3 @@
-## 🧩 Layout Contribution Guide
-
 ### Template
 Start with `templates/layout.json`.
 

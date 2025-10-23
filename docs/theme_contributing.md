@@ -11,7 +11,7 @@ Increment the `version` for each update.
 - Use a **direct link** (`.png`, `.jpg`, `.gif`, or `.mp4`).  
 - Host on **Postimg**, **Imgur**, **GitHub user content** or add to `images/` folder of this repo.  
  - Keep files ≤ **1 MB**.
- - Crop preview to 1:1 if image   
+ - Crop preview (if image) to 1:1 with widget in the center  
  - File name format: `theme_id-layout_id.extension`  
 
 ### Style Object

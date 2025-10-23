@@ -2,19 +2,17 @@
 Start with `templates/theme.json`.  
 
 ### Theme ID 
-Use the theme name in **snake_case** (e.g., `"Sunset Glow"` → `sunset_glow`).  
-
-### File Name
-Must match the theme ID → `sunset_glow.json`.  
+Use the theme name as ID but in **snake_case** (e.g., `"Sunset Glow"` → `sunset_glow`).  
 
 ### Versioning
-Increment the `version` field for each update.  
+Increment the `version` for each update.  
 
 ### Preview  
 - Use a **direct link** (`.png`, `.jpg`, `.gif`, or `.mp4`).  
-- Host on **Postimg**, **Imgur**, **GitHub user content** or add to `images/` folder.  
- - Keep files ≤ **1 MB** and clearly show the theme.    
- - Name format: `theme_id-layout_id.extension`  
+- Host on **Postimg**, **Imgur**, **GitHub user content** or add to `images/` folder of this repo.  
+ - Keep files ≤ **1 MB**.
+ - Crop preview to 1:1 if image   
+ - File name format: `theme_id-layout_id.extension`  
 
 ### Style Object
   - All fields are **required**.  

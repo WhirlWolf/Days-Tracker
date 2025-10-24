@@ -70,6 +70,7 @@ e.g.,
     "max_lines_event_title": "2"
 }
 ```
+---
 
 ### Validation 
   - Check JSON via [jsonlint.com](https://jsonlint.com).  

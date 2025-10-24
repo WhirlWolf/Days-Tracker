@@ -34,7 +34,7 @@ Released: August 15, 2022
 <table width="100%">
   <tr>
     <td align="center" valign="top">
-      <img src="assets/images/notification_alert.png" alt="Notification alert" width="96"><br><sub>Notification alert</sub>
+      <img src="assets/images/notification_alert.png" alt="Notification Alert" width="96"><br><sub>Notification Alert</sub>
     </td>
     <td align="center" valign="top">
       <img src="assets/images/themes.png" alt="Themes" width="96"><br><sub>Themes</sub>

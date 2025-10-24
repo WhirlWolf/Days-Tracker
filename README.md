@@ -43,7 +43,7 @@ Released: August 15, 2022
       <img src="docs/images/dt_widget_list.png" alt="List Widget" width="96"><br><sub>List Widget</sub>
     </td>
     <td align="center" valign="top">
-      <img src="assets/images/events_manager.png" alt="Events Manager" width="96"><br><sub>Events Manager</sub>
+      <img src="assets/images/manage_events.png" alt="Manage Events" width="96"><br><sub>Manage Events</sub>
     </td>
   </tr>
 </table>

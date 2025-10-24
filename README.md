@@ -37,7 +37,7 @@ Released: August 15, 2022
       <img src="assets/images/notification_alert.png" alt="Notification alert" width="96"><br><sub>Notification alert</sub>
     </td>
     <td align="center" valign="top">
-      <img src="assets/images/widgets.png" alt="Widgets" width="96"><br><sub>Widgets</sub>
+      <img src="assets/images/themes.png" alt="Themes" width="96"><br><sub>Themes</sub>
     </td>
     <td align="center" valign="top">
       <img src="docs/images/dt_widget_list.png" alt="List Widget" width="96"><br><sub>List Widget</sub>

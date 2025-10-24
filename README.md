@@ -50,7 +50,7 @@ Released: August 15, 2022
 
 
 ## 📝 Acknowledgements
-* [Mr_G0OD](https://t.me/android_automation_group): Testing
+* [Mr_G0OD](https://t.me/android_automation_group)
 
 
 ## ❓ FAQ

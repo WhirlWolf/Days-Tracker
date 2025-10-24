@@ -34,19 +34,16 @@ Released: August 15, 2022
 <table width="100%">
   <tr>
     <td align="center" valign="top">
-      <img src="docs/images/dt_focus_card.png" alt="Focus Card" width="96"><br><sub>Focus Card</sub>
+      <img src="assets/images/notification_alert.png" alt="Notification alert" width="96"><br><sub>Notification alert</sub>
     </td>
     <td align="center" valign="top">
-      <img src="docs/images/dt_widget_grid.png" alt="Grid Widget" width="96"><br><sub>Grid Widget</sub>
+      <img src="assets/images/widgets.png" alt="Widgets" width="96"><br><sub>Widgets</sub>
     </td>
     <td align="center" valign="top">
       <img src="docs/images/dt_widget_list.png" alt="List Widget" width="96"><br><sub>List Widget</sub>
     </td>
     <td align="center" valign="top">
-      <img src="docs/images/dt_manage_events.png" alt="Manage Events" width="96"><br><sub>Manage Events</sub>
-    </td>
-    <td align="center" valign="top">
-      <img src="docs/images/dt_theme_preview.png" alt="Theme Preview" width="96"><br><sub>Themes</sub>
+      <img src="assets/images/events_manager.png" alt="Events Manager" width="96"><br><sub>Events Manager</sub>
     </td>
   </tr>
 </table>

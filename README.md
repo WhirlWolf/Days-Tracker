@@ -40,7 +40,7 @@ Released: August 15, 2022
       <img src="assets/images/themes.png" alt="Themes" width="96"><br><sub>Themes</sub>
     </td>
     <td align="center" valign="top">
-      <img src="docs/images/dt_widget_list.png" alt="List Widget" width="96"><br><sub>List Widget</sub>
+      <img src="assets/images/theme_layout_selection.png" alt="Theme/Layout Selection" width="96"><br><sub>Theme/Layout Selection</sub>
     </td>
     <td align="center" valign="top">
       <img src="assets/images/manage_events.png" alt="Manage Events" width="96"><br><sub>Manage Events</sub>

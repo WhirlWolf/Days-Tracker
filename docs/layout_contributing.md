@@ -84,3 +84,6 @@ e.g.,
   - Ensure unique IDs and all required fields are present.
   - The JSON is properly formatted (use indentation).
   - Preview link works and image/video loads correctly.
+
+### Tips
+- Set `Use Material You Colors` to `true` for texts.

@@ -11,16 +11,15 @@ Must be unique.
 ---
 
 ### Versioning
-Increment the `version` number whenever you modify or improve an existing layout (e.g., `1.0 → 1.1`).  
-Use **semantic versioning** for clarity (`major.minor`).
+Increment the `version` number whenever you modify or improve an existing layout (e.g., `1.0 → 1.1`) [`major.minor`].
 
 ---
 
 ### Preview
-- Use a **direct link** ending with `.png`, `.jpg`, `.gif`, or `.mp4`.  
-- Host on trusted platforms like **Postimg**, **Imgur**, **GitHub user content**, or place inside the repo’s `images/` folder.  
-- Keep file size **minimum**.  
-- Crop preview (if image) to **1:1 aspect ratio** with the **widget centered**.  
+- Use a **direct link** ending with `.png`, `.jpg`, `.gif`, `.mp4`, etc
+- Host on trusted platforms like Postimg, Imgur, GitHub user content, or place inside the repo’s `images/` folder.  
+- Keep file size minimum.  
+- Crop preview (if image) to **1:1 aspect ratio** with the widget centered.  
 - **File name format:**  
   `layout_id-theme_id.extension`
    
@@ -55,6 +54,7 @@ Use **semantic versioning** for clarity (`major.minor`).
 %text_color_event_alert
 %text_color_event_days
 %text_color_event_label
+%command (REQUIRED)
 ```
 
 ---

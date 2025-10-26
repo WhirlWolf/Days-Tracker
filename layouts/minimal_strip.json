@@ -16,7 +16,7 @@
         "resizable"
     ],
     "date_created": "2025-08-22",
-    "date_updated": "2025-10-21",
+    "date_updated": "2025-10-26",
     "min_project_version": "2.4.20251025",
     "min_tasker_version": "6.4-stable",
     "defaults": {
@@ -33,18 +33,22 @@
                         "color": "%text_color_event_title",
                         "fontFamily": "%font_primary",
                         "text": "%event_title",
-                        "textSize": "20",
-                        "type": "Text"
+                        "textSize": "%text_size_event_title",
+                        "command": "%command",
+                        "commandPrefix": "DT",
+                        "type": "Text",
+                        "useMaterialYouColors": true
                     },
                     {
                         "color": "%text_color_event_date",
                         "fontFamily": "%font_primary",
                         "text": "%event_date",
-                        "textSize": "14",
-                        "type": "Text"
+                        "textSize": "%text_size_event_date",
+                        "type": "Text",
+                        "useMaterialYouColors": true
                     }
                 ],
-                "horizontalAlignment": "Start",
+                "horizontalAlignment": "Center",
                 "verticalAlignment": "Center",
                 "type": "Column"
             },
@@ -54,15 +58,18 @@
                 "color": "%text_color_event_days",
                 "fontFamily": "%font_primary",
                 "text": "%event_days",
-                "textSize": "28",
-                "type": "Text"
+                "textSize": "%text_size_event_days",
+                "type": "Text",
+                "useMaterialYouColors": true
             }
         ],
-        "horizontalAlignment": "SpaceBetween",
+        "horizontalAlignment": "Center",
         "verticalAlignment": "Center",
         "backgroundColor": "%background_color",
         "cornerRadius": "%corner_radius",
+        "isWeighted": false,
         "padding": 15,
-        "type": "Row"
+        "type": "Row",
+        "useMaterialYouColors": false
     }
 }

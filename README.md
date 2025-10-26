@@ -49,17 +49,16 @@ Released: August 15, 2022
 </table>
 
 
-## 📝 Acknowledgements
-* [Mr_G0OD](https://t.me/android_automation_group)
-
-
 ## ❓ FAQ
 #### Why is my widget not updating?
 Make sure tasker has permission to run in the background and is excluded from battery optimizations.
 
+## 📝 Acknowledgements
+* [Mr_G0OD](https://t.me/android_automation_group)
+
 
 ## 🤝 Contributing
-Found a bug? Have a feature request?
+Found a bug or have a feature request?
 [Open an issue](https://github.com/WhirlWolf/Days-Tracker/issues)
 
 ---

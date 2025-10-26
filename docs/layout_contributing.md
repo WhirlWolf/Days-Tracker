@@ -59,6 +59,13 @@ Increment the `version` number whenever you modify or improve an existing layout
 
 ---
 
+### Command
+Must include `%command` variable for command & `DT` for command prefix.
+
+This is required for widget interaction.
+
+---
+
 ### Defaults Object
 Must include all variables used in structure in defaults.
 

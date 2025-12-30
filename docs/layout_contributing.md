@@ -67,7 +67,7 @@ This is required for widget interaction.
 ---
 
 ### Defaults Object
-Must include all variables used in structure in defaults. Overrides theme vriables.
+Must include all variables used in structure in defaults. Overrides theme variables.
 
 e.g.,
 ```json

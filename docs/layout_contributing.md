@@ -4,22 +4,22 @@ Start with `templates/layout.json`.
 ---
 
 ### Layout ID
-Use the layout name as the **ID** but in **snake_case**  
+Use the layout name as the **ID** in **snake_case**  
 (e.g., `"Simple Card"` → `simple_card`).
 Must be unique.
 
 ---
 
 ### Versioning
-Increment the `version` number whenever you modify or improve an existing layout (e.g., `1.0 → 1.1`) [`major.minor`].
+Increment the `version` number whenever an existing layout is modified or improved (e.g., `1.0 → 1.1`) [`major.minor`].
 
 ---
 
 ### Preview
-- Use a **direct link** ending with `.png`, `.jpg`, `.gif`, `.mp4`, etc
-- Host on trusted platforms like Postimg, Imgur, GitHub user content, or place inside the repo’s `images/` folder.  
+- **Direct link** ending with `.png`, `.jpg`, `.gif`, `.mp4`, etc
+- Use trusted platforms like Postimg, Imgur, GitHub user content, or place inside the repo’s `images/` folder.  
 - Keep file size minimum.  
-- Crop preview (if image) to **1:1 aspect ratio** with the widget centered.  
+- **1:1 aspect ratio** for image previews with the widget centered.  
 - **File name format:**  
   `layout_id-theme_id.extension`
    
@@ -67,7 +67,7 @@ This is required for widget interaction.
 ---
 
 ### Defaults Object
-Must include all variables used in structure in defaults.
+Must include all variables used in structure in defaults. Overrides theme vriables.
 
 e.g.,
 ```json

@@ -50,7 +50,7 @@ Released: August 15, 2022
 
 
 ## ❓ FAQ
-#### Why is my widget not updating?
+#### Widget not updating?
 Make sure tasker has permission to run in the background and is excluded from battery optimizations.
 
 ## 📝 Acknowledgements
